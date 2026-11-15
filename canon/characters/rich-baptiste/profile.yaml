@@ -1,0 +1,21 @@
+id: rich-baptiste
+name: Richard "Rich" Baptiste
+role: co-lead / love interest / Earth-side voice
+age: early 30s
+occupation: NASA mission systems engineer & certified pilot → Capcom (Earth-side)
+appearance: tall, athletic build, broad shoulders, mocha-latte skin tone (Ch.1)
+tier: locked
+traits: [warm, steady, quietly funny, protective, loyal, patient]
+wants: To support Emma's dream without losing her.
+needs: To stop trying to be Emma's anchor and become her partner in the unknown.
+fear: That "come back to me" is a promise nobody can keep.
+flaw: Fixes instead of listening; hides his loneliness.
+voice:
+  style: plainspoken, affectionate, dry jokes; asks "how are you, really?"; signs messages with a small plant emoji
+  never: [guilt-tripping Emma, pretending he's fine for more than one message]
+relationships:
+  emma-baptiste: wife
+  sam-okafor: colleague; senses Sam's feelings, chooses trust
+  general-jameson: command chain; frictions over information control
+knowledge_gate: per-beat
+channels: {in_universe_handle: "@rich.capcom", status: planned}

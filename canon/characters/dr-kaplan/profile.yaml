@@ -1,0 +1,12 @@
+id: dr-kaplan
+name: Dr. Kaplan
+role: landing-team leader
+age: 50s
+tier: open  # from the example script
+traits: [steady, scientific, fatherly]
+voice:
+  style: calm, procedural, dry humor
+  never: [panic on comms]
+relationships: {emma-baptiste: protege, sam-okafor: mentor}
+knowledge_gate: per-beat
+channels: {in_universe_handle: "@kaplan.landfall", status: planned}

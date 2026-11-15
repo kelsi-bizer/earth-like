@@ -1,0 +1,1 @@
+From the example script: announces the discovery in a tough, military manner and later addresses the media about microbial life. **Proposed:** believes humanity needs a lifeboat; controls the information flow 'for stability'.

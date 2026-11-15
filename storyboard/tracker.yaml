@@ -1,0 +1,90 @@
+# Storyboard tracker. `status`: idea → outlined → drafted → reviewed → locked → released
+# `canon`: locked | open | fan-influenced | proposed        `release_date`: wall-clock reveal (null = unscheduled)
+# `reveals`: facts this beat makes public (drives the knowledge gate)
+# `assets`: asset ids (see assets/README.md) needed to publish the beat
+version: 1
+project: earth-like
+acts:
+  - {id: act1, title: "The Discovery"}
+  - {id: act2, title: "Terra"}
+  - {id: act3, title: "Signal"}
+  - {id: act4, title: "Return or Roots"}
+beats:
+  - id: ch01
+    act: act1
+    title: The Discovery
+    story_date: 2043-02-10
+    location: hq
+    characters: [emma-baptiste, dr-timothy-groen, rich-baptiste]
+    status: drafted
+    canon: locked
+    source: canon/source/draft-chapters-1-2.md
+    reveals: [terra-found, terra-vegetation-matches-earth, emma-credited]
+    release_date: null
+    assets: [portrait-emma, scene-hq-presentation]
+    channels: [website, social]
+  - id: ch02
+    act: act1
+    title: Celebrating the Success
+    story_date: 2043-02-10
+    location: home
+    characters: [emma-baptiste, rich-baptiste]
+    status: drafted
+    canon: locked
+    source: canon/source/draft-chapters-1-2.md
+    reveals: [emma-might-go-to-terra]
+    release_date: null
+    assets: [scene-home-garden]
+    channels: [website, social]
+  - id: ch03
+    act: act1
+    title: The Decision
+    story_date: 2043-02-11
+    location: home
+    characters: [emma-baptiste, rich-baptiste, sam-okafor]
+    status: idea
+    canon: proposed
+    requires: [ch02]
+    reveals: [emma-chooses-to-go, sam-volunteers]
+    notes: "Emma and Rich talk it through. Sam's volunteering is seeded via a social post."
+  - id: ch04
+    act: act1
+    title: Training
+    status: idea
+    canon: proposed
+    requires: [ch03]
+    characters: [emma-baptiste, rich-baptiste, sam-okafor, dr-kaplan, general-jameson]
+    reveals: [crew-announced, comms-delay-rules]
+  - id: ch05
+    act: act1
+    title: Goodbyes / Launch
+    status: idea
+    canon: proposed
+    requires: [ch04]
+    branch: B1
+    reveals: [launch]
+  - id: ch06
+    act: act2
+    title: Landfall
+    status: idea
+    canon: proposed
+    requires: [ch05]
+    reveals: [landing]
+  - id: ch09
+    act: act2
+    title: The Sync Pulse
+    status: idea
+    canon: proposed
+    requires: [ch06]
+    reveals: [plants-synchronized-to-earth-day]
+  - id: ch12
+    act: act2
+    title: The Orchard
+    status: idea
+    canon: proposed
+    requires: [ch09]
+    branch: B2
+    reveals: [terra-was-seeded]
+branches:
+  - {id: B1, beat: ch05, question: "What does Emma carry from home?", options: [seed-vial, grandmothers-letter, rich-recording], opens: null, closes: null, deadline_days: 7}
+  - {id: B2, beat: ch12, question: "Who does Emma tell first?", options: [rich, sam, kaplan], opens: null, closes: null, deadline_days: 7}

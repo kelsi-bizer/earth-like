@@ -1,0 +1,13 @@
+id: dr-timothy-groen
+name: Dr. Timothy Groen
+role: mentor / institutional face
+occupation: NASA Planetary Science Director
+appearance: slender, perpetual smile "that could not be removed even if he tried" (Ch.1)
+tier: locked
+traits: [optimistic, generous, politically careful]
+voice:
+  style: warm public speaker ("Ladies and gentlemen"); careful with facts
+  never: [lie directly]
+relationships: {emma-baptiste: champion, general-jameson: uneasy ally}
+knowledge_gate: per-beat
+channels: {in_universe_handle: "@terra.program.office", status: planned}

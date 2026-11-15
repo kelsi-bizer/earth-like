@@ -1,0 +1,13 @@
+id: general-jameson
+name: General Jameson
+role: institutional antagonist-ish (pressure, not villain)
+age: 60s
+occupation: Military liaison to the Terra Program
+tier: open  # from the example script
+traits: [blunt, duty-driven, protective of "the mission"]
+voice:
+  style: clipped, formal
+  never: [cartoon villainy]
+relationships: {dr-groen: uneasy ally, rich-baptiste: friction over information control}
+knowledge_gate: per-beat
+channels: {in_universe_handle: "@terra.program.press", status: planned}

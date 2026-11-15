@@ -1,0 +1,17 @@
+id: sam-okafor
+name: Dr. Sam Okafor   # surname proposed; "Dr. Sam" in outline
+role: deuteragonist / complicating ally
+age: early 30s
+occupation: Planetary chemist / colleague of Emma and Rich; volunteers for the landing team
+tier: open
+traits: [quiet, serious, exacting, secretly romantic, honest to a fault]
+wants: To be close to the work — and to Emma.
+needs: To act on integrity when it costs him the thing he wants.
+fear: That his feelings will compromise the mission.
+flaw: Self-justifying under pressure; mistakes admiration for entitlement.
+voice:
+  style: measured, formal, occasional dry wit; writes long careful messages, rarely sends them
+  never: [pressuring Emma, disparaging Rich]
+relationships: {emma-baptiste: secret crush, rich-baptiste: respects him, dr-kaplan: mentor}
+knowledge_gate: per-beat
+channels: {in_universe_handle: "@dr.sam.okafor", status: planned}
