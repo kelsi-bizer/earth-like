@@ -4,7 +4,7 @@ Each channel gets a spec file here (`<channel>.md`): purpose, which characters p
 
 | Channel | Role in story | Characters | Status |
 |---|---|---|---|
-| Website — "Terra Program Office" | In-universe press site; mission log; fan "Terra Watch" portal & votes | Groen, Jameson | planned |
+| Website — TPO (Terra Program Office) | In-universe press site; mission log; fan "Terra Watch" portal & votes | Groen, Jameson | planned |
 | Social — Emma | Field-journal photos/notes (delayed) | Emma | planned |
 | Social — Rich | Garden log, Capcom updates | Rich | planned |
 | Discord/community | Terra Watch fan hub; Kaplan as "mission lead" | Kaplan | planned |

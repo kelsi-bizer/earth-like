@@ -10,4 +10,4 @@ voice:
   never: [lie directly]
 relationships: {emma-baptiste: champion, general-jameson: uneasy ally}
 knowledge_gate: per-beat
-channels: {in_universe_handle: "@terra.program.office", status: planned}
+channels: {in_universe_handle: "@TPO_official", status: planned}

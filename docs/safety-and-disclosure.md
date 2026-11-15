@@ -4,7 +4,7 @@ The "story leaks into the real world" idea is powerful — and risky if people c
 
 1. **Label every profile.** Bio: "Fictional character from *Earth-Like*. AI-operated." Persona prompts enforce honest
    answers if sincerely asked (`personas.GUARDRAILS`).
-2. **Don't impersonate real organizations/people.** Public channels use the fictional **Terra Program Office**; no NASA
+2. **Don't impersonate real organizations/people.** Public channels use the fictional **Terra Program Office (TPO)**; no NASA
    logos/handles/wording implying official NASA statements. (Open question #6 — your call, but I recommend this.)
 3. **Check each platform's rules** on AI-operated accounts, automation labels, and parody/fiction accounts before launch.
 4. **Never solicit** personal data, money, or credentials from fans. No DMs initiated to minors.
